@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.doasialif.root.doaanakmusilm.Activity.DetailActivity"
+	android:background="@drawable/bg">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/tv_judul"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:gravity="center"
+			android:textSize="24sp"/>
+
+		<ImageView
+			android:id="@+id/iv_gambar"
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:layout_margin="10dp"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center">
+
+			<com.airbnb.lottie.LottieAnimationView
+				android:layout_width="80dp"
+				android:layout_height="70dp"
+				android:id="@+id/laPlay"
+				android:visibility="gone"/>
+			<com.airbnb.lottie.LottieAnimationView
+				android:layout_width="80dp"
+				android:visibility="gone"
+				android:layout_height="70dp"
+				app:lottie_fileName="play_pause.json"
+				app:lottie_loop="true"
+				app:lottie_autoPlay="true" />
+			<com.airbnb.lottie.LottieAnimationView
+				android:layout_width="80dp"
+				android:layout_height="70dp"
+				android:visibility="gone"
+				app:lottie_fileName="power.json"
+				app:lottie_loop="true"
+				app:lottie_autoPlay="true"
+				android:id="@+id/laPause"/>
+
+
+
+			<Button
+				android:id="@+id/btn_play"
+				android:layout_width="60dp"
+				android:layout_height="60dp"
+				android:layout_margin="10dp"
+				android:background="@drawable/play"/>
+
+			<Button
+				android:id="@+id/btn_pause"
+				android:layout_width="60dp"
+				android:layout_height="60dp"
+				android:layout_margin="10dp"
+				android:background="@drawable/stop"/>
+
+			<Button
+				android:id="@+id/btn_stop"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:text="STOP"
+				android:visibility="gone"/>
+		</LinearLayout>
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:cardCornerRadius="10sp"
+			android:layout_margin="8sp">
+			<TextView
+				android:id="@+id/tv_arab"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:text="رَضِتُ بِااللهِ رَبَا وَبِالْاِسْلاَمِ دِيْنَا وَبِمُحَمَّدٍ نَبِيَا وَرَسُوْلاَ رَبِّ زِدْ نِيْ عِلْمًـاوَرْزُقْنِـيْ فَهْمًـا رَبِّ زِدْنِي عِلْمًا وَارْزُقْنِيْ فَهْمًا وَاجْعَلْنِيْ مِنَ الصَّالِحِيْنَ"
+				android:textSize="22sp"/>
+
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:cardCornerRadius="10sp"
+			android:layout_margin="8sp">
+			<TextView
+				android:id="@+id/tv_latin"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:text="Rodlittu billahirobba, wabi islamidina, wabimuhammadin nabiyyaw warasulla ,robbi zidnii ilmaa warzuqnii fahmaa. Robbi zidnii 'ilman warzuqnii fahmaa, waj'alnii minash-shoolihiinٍ"/>
+
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:cardCornerRadius="10sp"
+			android:layout_margin="8sp">
+			<TextView
+				android:id="@+id/tv_arti"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:text="Kami ridho Allah Swt sebagai Tuhanku, Islam sebagai agamaku, dan Nabi Muhammad sebagai Nabi dan Rasul, Ya Allah, tambahkanlah kepadaku ilmu dan berikanlah aku pengertian yang baik. Ya Allah, tambahkanlah aku ilmu dan berikanlah aku rizqi akan kepahaman,Dan jadikanlah aku termasuk golongan orang-orang yang sholeh"/>
+
+		</android.support.v7.widget.CardView>
+	</LinearLayout>
+</ScrollView>

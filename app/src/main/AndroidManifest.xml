@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+		  package="com.doasialif.root.doaanakmusilm">
+
+	<uses-permission android:name="android.permission.INTERNET"/>
+
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/splashicons"
+		android:label="@string/app_name"
+		android:roundIcon="@drawable/splashicons"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+		<activity android:name=".Activity.HomeActivity"
+			android:label="Doa si Alif">
+		</activity>
+		<activity
+			android:name=".Activity.SplashActivity"
+			android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity android:name=".Activity.DetailActivity"
+			android:label="Detail Doa">
+		</activity>
+		<activity android:name=".Activity.MenuActivity"
+			android:label="Doa si Alif"/>
+		<activity android:name=".Activity.MateriActivity"
+			android:label="Menu Doa"
+			android:parentActivityName=".Activity.MenuActivity">
+		</activity>
+		<activity android:name=".DetailActivity2"
+			android:label="Detail Doa">
+		</activity>
+		<activity android:name=".DetailActivity3"
+			android:label="Detail Doa">
+		</activity>
+	</application>
+
+</manifest>

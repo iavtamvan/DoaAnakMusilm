@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg"
+	tools:context="com.doasialif.root.doaanakmusilm.DetailActivity2">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/tv_judul_utama"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:gravity="center"
+			android:text="Judul Utama"
+			android:textSize="24sp"/>
+
+		<ImageView
+			android:id="@+id/iv_gambar"
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:layout_margin="10dp"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center">
+
+			<Button
+				android:id="@+id/btn_play"
+				android:layout_width="60dp"
+				android:layout_height="60dp"
+				android:layout_margin="10dp"
+				android:background="@drawable/play"/>
+
+			<Button
+				android:id="@+id/btn_pause"
+				android:layout_width="60dp"
+				android:layout_height="60dp"
+				android:layout_margin="10dp"
+				android:background="@drawable/stop"/>
+
+			<Button
+				android:id="@+id/btn_stop"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:visibility="gone"
+				android:text="STOP"/>
+		</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:cardCornerRadius="10sp"
+			android:layout_margin="8sp">
+			<TextView
+				android:id="@+id/tv_subjudul1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="SubJudul"
+				android:textSize="20sp"
+				android:gravity="center"/>
+
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:cardCornerRadius="10sp"
+			android:layout_margin="8sp">
+			<TextView
+				android:id="@+id/tv_arab1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:text="رَضِتُ بِااللهِ رَبَا وَبِالْاِسْلاَمِ دِيْنَا وَبِمُحَمَّدٍ نَبِيَا وَرَسُوْلاَ رَبِّ زِدْ نِيْ عِلْمًـاوَرْزُقْنِـيْ فَهْمًـا رَبِّ زِدْنِي عِلْمًا وَارْزُقْنِيْ فَهْمًا وَاجْعَلْنِيْ مِنَ الصَّالِحِيْنَ"
+				android:textSize="22sp"/>
+
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:cardCornerRadius="10sp"
+			android:layout_margin="8sp">
+			<TextView
+				android:id="@+id/tv_latin1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:text="Rodlittu billahirobba, wabi islamidina, wabimuhammadin nabiyyaw warasulla ,robbi zidnii ilmaa warzuqnii fahmaa. Robbi zidnii 'ilman warzuqnii fahmaa, waj'alnii minash-shoolihiinٍ"/>
+
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:cardCornerRadius="10sp"
+			android:layout_margin="8sp">
+			<TextView
+				android:id="@+id/tv_arti1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:text="Kami ridho Allah Swt sebagai Tuhanku, Islam sebagai agamaku, dan Nabi Muhammad sebagai Nabi dan Rasul, Ya Allah, tambahkanlah kepadaku ilmu dan berikanlah aku pengertian yang baik. Ya Allah, tambahkanlah aku ilmu dan berikanlah aku rizqi akan kepahaman,Dan jadikanlah aku termasuk golongan orang-orang yang sholeh"/>
+
+		</android.support.v7.widget.CardView>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:cardCornerRadius="10sp"
+			android:layout_margin="8sp">
+			<TextView
+				android:id="@+id/tv_subjudul2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="SubJudul"
+				android:textSize="20sp"
+				android:gravity="center"/>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:cardCornerRadius="10sp"
+			android:layout_margin="8sp">
+			<TextView
+				android:id="@+id/tv_arab2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:text="رَضِتُ بِااللهِ رَبَا وَبِالْاِسْلاَمِ دِيْنَا وَبِمُحَمَّدٍ نَبِيَا وَرَسُوْلاَ رَبِّ زِدْ نِيْ عِلْمًـاوَرْزُقْنِـيْ فَهْمًـا رَبِّ زِدْنِي عِلْمًا وَارْزُقْنِيْ فَهْمًا وَاجْعَلْنِيْ مِنَ الصَّالِحِيْنَ"
+				android:textSize="22sp"/>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:cardCornerRadius="10sp"
+			android:layout_margin="8sp">
+			<TextView
+				android:id="@+id/tv_latin2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:text="Rodlittu billahirobba, wabi islamidina, wabimuhammadin nabiyyaw warasulla ,robbi zidnii ilmaa warzuqnii fahmaa. Robbi zidnii 'ilman warzuqnii fahmaa, waj'alnii minash-shoolihiinٍ"/>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:cardCornerRadius="10sp"
+			android:layout_margin="8sp">
+			<TextView
+				android:id="@+id/tv_arti2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:text="Kami ridho Allah Swt sebagai Tuhanku, Islam sebagai agamaku, dan Nabi Muhammad sebagai Nabi dan Rasul, Ya Allah, tambahkanlah kepadaku ilmu dan berikanlah aku pengertian yang baik. Ya Allah, tambahkanlah aku ilmu dan berikanlah aku rizqi akan kepahaman,Dan jadikanlah aku termasuk golongan orang-orang yang sholeh"/>
+		</android.support.v7.widget.CardView>
+	</LinearLayout>
+	</LinearLayout>
+</ScrollView>
