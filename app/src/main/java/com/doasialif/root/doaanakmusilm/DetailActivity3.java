@@ -2,11 +2,12 @@ package com.doasialif.root.doaanakmusilm;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.doasialif.root.doaanakmusilm.BankArray.DoaDalamRuangArray;
 import com.doasialif.root.doaanakmusilm.BankArray.DoaLuarRuangArray;
@@ -39,6 +40,7 @@ public class DetailActivity3 extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_detail3);
+		getSupportActionBar().hide();
 		initView();
 
 		index = getIntent().getIntExtra("index", 0);

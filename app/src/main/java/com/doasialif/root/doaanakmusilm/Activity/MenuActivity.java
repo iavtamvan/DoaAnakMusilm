@@ -2,9 +2,10 @@ package com.doasialif.root.doaanakmusilm.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.CardView;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import com.daimajia.slider.library.Animations.DescriptionAnimation;
 import com.daimajia.slider.library.Indicators.PagerIndicator;
@@ -13,8 +14,6 @@ import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
 import com.daimajia.slider.library.Tricks.ViewPagerEx;
 import com.doasialif.root.doaanakmusilm.R;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 
 import java.util.HashMap;
 
@@ -25,7 +24,6 @@ public class MenuActivity extends AppCompatActivity implements ViewPagerEx.OnPag
 	private CardView mCard1;
 	private CardView mCard2;
 	private static final String TAG = "MainActivity";
-	private AdView mAdView;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
